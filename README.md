@@ -26,13 +26,3 @@
 - 注册Kaggle平台账号，kaggle是一个数据科学社区，上面有大量的比赛、数据集以及相关代码，同时也提供了代码的运行环境（云服务器），之后我们将在Kaggle上进行Python编程
 - 查看Python的介绍与简介（如果有时间也可以提前看下基础语法和数据类型），推荐教程网址 https://www.runoob.com/python3  
 `Task0`考核任务：本Task暂无考核，仅需在Issues评论你的名字，表示你已经了解我们在Github上的学习流程
-## Task 1
-- 本次Task将会是第二次组会的主要内容  
-- Python基础教学（基础语法、数据类型、常见功能）（将使用kaggle在线运行python，对设备无要求，不需要安装软件）  
-- Github使用、vpn网络节点切换等在线答疑（什么都可以问）    
-- 数据加载、可视化（in python）
-Details are waiting for updated
-## Task S1
-- (这是针对第一次参加数据科学竞赛的Task)
-- 更多关于Python的教学内容
-- Kaggle Titanic项目实战
