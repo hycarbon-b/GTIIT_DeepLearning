@@ -7,13 +7,15 @@
   3. 研读论文，复现各种一些经典的网络模型，并能够自己改进模型，同时为研读前沿成果的论文做好铺垫  
   4. 结合具体的学科，寻找相关的数据集、比赛、课题进行研究  
 - 学习方式：
-  该项目暂时不分组，协作平台为qq群和Github
-
+  请大家结合下面材料进行自学，需要掌握的知识有：简单的线代运算、多元微积分中梯度的概念、深度学习的基本原理。 约6h可以初步掌握这些概念。
+  
   Python自学参考网站: https://www.runoob.com/python3  
   	
   多元微积分：掌握梯度（最为重要）及多元链式法则，之后的内容可以不用听 https://www.bilibili.com/video/BV1UB4y1b7ac (3b1b)  
+  
   线性代数：《线性代数及其应用》 第一二章  (3b1b视频) https://www.bilibili.com/video/BV1ys411472E  
-  深度学习网络原理：  (3b1b) https://space.bilibili.com/88461692/channel/seriesdetail?sid=1528929  (吴恩达课程 )https://www.bilibili.com/video/BV1FT4y1E74V 
+  
+  深度学习网络原理：  (3b1b) https://space.bilibili.com/88461692/channel/seriesdetail?sid=1528929  (吴恩达课程 )https://www.bilibili.com/video/BV1FT4y1E74V   
      
 ## Task 0
 - Github是我们发布信息、管理项目代码、进行团队协作的平台，请大家熟悉Github的页面（Github中一些关键的高级功能我们之后慢慢探索）
@@ -21,5 +23,8 @@
 - 查看Python的介绍与简介（如果有时间也可以提前看下基础语法和数据类型），推荐教程网址 https://www.runoob.com/python3  
 `Task0`考核任务：本Task暂无考核，仅需在Issues评论你的名字，表示你已经了解我们在Github上的学习流程
 
-## Task 1
-- 
+## Task 1  
+[点击查看Task1内容](tasks/Task1.md)
+- 学习神经网络计算的基本原理     
+- 了解开发工具Pytorch， 以及自学资源和方式
+- 简单了解深度学习在生命科学中的运用
