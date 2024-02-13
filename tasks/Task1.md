@@ -30,24 +30,22 @@ img:
     img (224,224,3)  
 
 1. Forward/Backpropagation
-    $$
-    f(\vec{x};a) = \vec{y}
-
-    $$
+    $$f(\vec{x};a) = \vec{y}$$
+   
     loss : pred label 的差异  ground truth
-    $$
-    loss(a;\vec{y}, \vec{gt})
-    $$
+   
+    $$loss(a;\vec{y}, \vec{gt})$$
+   
     loss ： MSE $(y - gt)^2$、RMSE、L1 、CrossEntropy    
     label: vector[], 向量的每一位对应一个logit，值的大小视作该类别的概率    
     Update a 梯度下降（自动实现），a是整个nn Module计算时的参数（网络权重）
     
-2. nn module
+3. nn module
     抽象的计算结构 $\vec{y} = nnModule(\vec{x})$  
     nn module 可以作为基础神经计算单元、网络层、网络结构、多个网络的复合体等一切在Pytorch中的计算结构
     
 
-3. Process  
+4. Process  
     Data Preprocessing: png jpg nii ...... -> tensor
     Foward
     Backp
