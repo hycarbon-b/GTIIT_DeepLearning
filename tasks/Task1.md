@@ -46,23 +46,23 @@ img:
     
 
 4. Process  
-    Data Preprocessing: png jpg nii ...... -> tensor
-    Foward
-    Backp
-    Repeat
+    Data Preprocessing: png jpg nii ...... -> tensor  
+    Foward  
+    Backp  
+    Repeat  
 
-    Data Preprocessing: png jpg nii ...... -> tensor
-    Data stack & Data load 
-    Foward
-    Backp
-    Repeat
+    Data Preprocessing: png jpg nii ...... -> tensor  
+    Data stack & Data load   
+    Foward  
+    Backp  
+    Repeat  
 ### One-hot/logits
-车的型号：A B C D E F G 
-1. [1~7] 先验
-2. [0000001] [0000010] [0000100] 无先验
-a b c
-pred=[0.2 0.3 0.9]
-gt = [0 0 1]
+车的型号：A B C D E F G   
+1. [1~7] 先验  
+2. [0000001] [0000010] [0000100] 无先验  
+a b c  
+pred=[0.2 0.3 0.9]  
+gt = [0 0 1]  
 
 ```
 class net1(nn.Module):
