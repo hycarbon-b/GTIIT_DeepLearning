@@ -26,8 +26,8 @@ Tensor
 img text audio video ... -> tensor  
 img:   
     二维tensor： pixel intensity 
-    三维tensor： channel [[width,height] [width,height] [width,height]]
-    img (224,224,3)  
+    三维tensor： channel [[width,height] [width,height] [width,height]]  
+    img (3,224,224)  
 
 1. Forward/Backpropagation
     $$f(\vec{x};a) = \vec{y}$$
